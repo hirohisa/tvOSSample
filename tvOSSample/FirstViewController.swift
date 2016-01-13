@@ -9,5 +9,9 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+
+    @IBAction func buttonPressed(sender: AnyObject?) {
+        print(__FUNCTION__)
+    }
 }
 
